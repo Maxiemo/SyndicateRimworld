@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
-
 	<PawnKindDef>
 		<defName>Operative</defName>
 		<label>Operative</label>
-		<forceHediff>
-			<li>ExplosiveImplant</li>
-		</forceHediff>
-		<race>Human</race>
+		<race>Syndicate</race>
 		<combatPower>40</combatPower>
 		<defaultFactionType>Syndicate</defaultFactionType>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
@@ -77,10 +73,7 @@
 	<PawnKindDef>
 		<defName>Syndrone</defName>
 		<label>Syndicate Strike Leader</label>
-		<race>Human</race>
-		<forceHediff>
-			<li>ExplosiveImplant</li>
-		</forceHediff>
+		<race>Syndicate</race>
 		<combatPower>250</combatPower>
 		<defaultFactionType>Syndicate</defaultFactionType>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
@@ -154,10 +147,7 @@
 	<PawnKindDef>
 		<defName>SwordMaster</defName>
 		<label>Syndicate SwordMaster</label>
-		<race>Human</race>
-		<forceHediff>
-			<li>ExplosiveImplant</li>
-		</forceHediff>
+		<race>Syndicate</race>
 		<combatPower>100</combatPower>
 		<defaultFactionType>Syndicate</defaultFactionType>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
@@ -220,7 +210,7 @@
 		</inventoryOptions>
 	</PawnKindDef>
 	<PawnKindDef Abstract="True" Name="Syndiebomb">
-    <race>Human</race>
+    <race>Syndicate</race>
     <combatPower>150</combatPower>
     <defaultFactionType>Syndicate</defaultFactionType>
     <baseRecruitDifficulty>1</baseRecruitDifficulty>
@@ -232,9 +222,6 @@
       <min>1</min>
       <max>1.8</max>
     </gearHealthRange>
-	<forceHediff>
-		<li>ExplosiveImplant</li>
-	</forceHediff>
     <apparelTags>
 	<li>SyndiSuit</li>
 	<li>SyndiHelmet</li>
