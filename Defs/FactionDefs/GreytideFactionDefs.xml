@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+
+  <FactionDef>
+    <defName>Greytide</defName>
+    <label>Greytide</label>
+    <description> The roughest, toughest, most unreliable mercenaries, assassins, freeloaders and assholes this side of the cosmos. The Greytide was formed after the great Nanotrasen unenployment crisis left its mark, this meant thousands of untrained men and woman unable to find an appropriate job to feed themselves and their spess families. The tide initially was treated as such a threat that many of those who participated in its movement were sent to Nanotrasen prison rocks and forced to labor for life, even to this day the Greytide still holds one of the largest population of members in the galaxy. While quite rash, brutal and unthinking in their actions they are simplistic and therefore can be easy to please with materialistic objects.   </description>
+    <pawnsPlural>Greytider</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>70</raidCommonality>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <appreciative>true</appreciative>
+    <startingGoodwill>
+      <min>-99</min>
+      <max>45</max>
+    </startingGoodwill>
+   <factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<canFlee>true</canFlee>
+		<hairTags>
+			<li>Punk</li>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>0</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+		<pawnGroupMakers>
+			<li Class="PawnGroupMaker_Normal">
+				<commonality>100</commonality>
+				<options>
+					<Assistant>5</Assistant>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+		<homeIconColor>(255,100,100)</homeIconColor>
+	</FactionDef>
+
+
+</FactionDefs>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_CakeHat</defName>
+		<label>Cake Hat</label>
+		<description> Makes for a very decorative cake top, also great for the Assistants who want to dress to impress. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>1100</MarketValue>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Heat>5</ArmorRating_Heat>
+			<Insulation_Cold>-5</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<RecruitPrisonerChance>0.20</RecruitPrisonerChance>
+			<TameAnimalChance>0.20</TameAnimalChance>
+			<SocialImpact>0.20</SocialImpact>
+			<GiftImpact>0.15</GiftImpact>
+			<TradePriceImprovement>0.10</TradePriceImprovement>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<worngraphicPath>Things/Pawn/Humanoid/Apparel/CakeHat/CakeHat</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>0.50</commonality>
+			<tags>
+				<li>GreytideHats</li>
+			</tags>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_GasMask</defName>
+		<label>Gas Mask</label>
+		<description> Standard dress code for most respectable Assistants. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanoid/Apparel/GasMask/GasMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>300</MarketValue>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+		</statBases>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<worngraphicPath>Things/Pawn/Humanoid/Apparel/GasMask/GasMask</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>GreytideHats</li>
+			</tags>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_InsulatedGloves</defName>
+		<label>Insulated Gloves</label>
+		<description> An Assistants best friend. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanoid/Apparel/InsulatedGloves/InsulatedGloves</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<MarketValue>300</MarketValue>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Heat>100</ArmorRating_Heat>
+			<Insulation_Cold>-100</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.05</ConstructionSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>GreytideHats</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Hands</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_WeldingHelmet</defName>
+		<label>Welding Helmet</label>
+		<description> Makes for a great makeshift helmet but impairs your vision quite a bit. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>800</MarketValue>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracy>-0.20</ShootingAccuracy>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<worngraphicPath>Things/Pawn/Humanoid/Apparel/WeldingHelmet/WeldingHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>GreytideHats</li>
+			</tags>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+</ThingDefs>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_ImprovisedSpear</defName>
+		<label>Improvised Spear</label>
+		<description> The Improvised spear is infamous for its reliabilty, lethality, abundancy and its common use among Greytiders.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/ImprovSpear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Cut</meleeDamageDef>
+				<soundCast>Bladeslice</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_Welder</defName>
+		<label>Welder</label>
+		<description> The Welder is known for its extensive utility and efficiency at melting faces off.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Welder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>7</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>250</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Burn</meleeDamageDef>
+				<soundCast>Welderburn</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_Screwdriver</defName>
+		<label>Screwdriver</label>
+		<description> Apply to eyes for maximum effectivenes </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Screwdriver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>7</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>250</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Stab</meleeDamageDef>
+				<soundCast>Bladeslice</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_Pickaxe</defName>
+		<label>Pickaxe</label>
+		<description> Standard Nanotrasen pickaxe, designed for extra picking, the edges and ends are extra pointy and sharp for eradicating filthy xenos or giant space carp.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Pickaxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+			<MiningSpeed>0.15</MiningSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Stab</meleeDamageDef>
+				<soundCast>Genhit1</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>MeleeWeapon_Wrench</defName>
+		<label>Wrench</label>
+		<description> Great all round tool, wrench a girder, wrench a table, wrench the clown, wrench the head of securities limbs. </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Wrench</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>2.0</MeleeWeapon_Cooldown>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.50</ConstructionSpeed>
+			<ConstructFailChance>-0.30</ConstructFailChance>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+				<soundCast>Genhit1</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_Chainsaw</defName>
+		<label>Chainsaw</label>
+		<description> Remember to yell 'Timeerrrrr' when you rend off their legs. </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Chainsaw</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>17</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>3.0</MeleeWeapon_Cooldown>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.20</PlantWorkSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Cut</meleeDamageDef>
+				<soundCast>Chainsawhit</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>MeleeWeapon_Toolbox</defName>
+		<label>Toolbox</label>
+		<description> Its full, of the souls of past victims which instill some form of mystical engineering knowledge within the user. It's also great at caving in skulls.  </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Toolbox</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>3.0</MeleeWeapon_Cooldown>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructFailChance>-0.20</ConstructFailChance>
+			<ConstructionSpeed>0.10</ConstructionSpeed>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+				<soundCast>Clonk</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>MeleeWeapon_Crowbar</defName>
+		<label>Wrench</label>
+		<description> Not to be mistaken for a suspicious crowbar </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/Crowbar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>Greytide</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>8</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+				<soundCast>Genhit2</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+		<defName>MeleeWeapon_FirstAid</defName>
+		<label>Wrench</label>
+		<description> Automatically sorts medication, gauzes, salves, syringes and has an inbuilt health analyzer increasing healing efficiency. </description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Greytide/FirstAidKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<soundInteract>InteractPistol</soundInteract>
+		<costStuffCount>130</costStuffCount>
+		<costList>
+			<Medicine>2</Medicine>
+		</costList>
+		<weaponTags>
+			<li>AidKit</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>1</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>700</MarketValue>
+			<WorkToMake>200</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<BaseHealingQuality>0.20</BaseHealingQuality>
+			<MedicalPotency>0.20</MedicalPotency>
+		</equippedStatOffsets>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+				<soundCast>Genhit1</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+</ThingDefs>
+
+
+

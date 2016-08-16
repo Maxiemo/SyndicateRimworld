@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef Name="CookDonkPocket">
+    <defName>CookDonkPocket</defName>
+    <recipeUsers>
+	<li>ElectricStove</li>
+	<li>FueledStove</li>
+    </recipeUsers>
+    <label>cook donk pocket</label>
+    <description>Cooks a Donk Pocket.</description>
+    <jobString>Cooking Donk Pocket.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+	    <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <DonkPocket>1</DonkPocket>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedSpecialFilters>
+        <li>AllowPlantFood</li>
+      </disallowedSpecialFilters>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+      </exceptedCategories>
+      <exceptedThingDefs>
+        <li>Human_Meat</li>
+      </exceptedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+</RecipeDefs>

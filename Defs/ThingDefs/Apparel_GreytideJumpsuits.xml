@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_Jumpsuit</defName>
+		<label>Grey Jumpsuit</label>
+		<description> Not just a suit, a symbol of ones identity, of their allegiance, the Grey Jumpsuit signifies a true Greytider. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Heat>5</ArmorRating_Heat>
+			<Insulation_Cold>-5</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<worngraphicPath>Things/Pawn/Humanoid/Apparel/Greyshirt/Greyshirt</worngraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<commonality>0.50</commonality>
+			<tags>
+				<li>GreytideJumpsuit</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+		</apparel>
+	</ThingDef>
+</ThingDefs>
