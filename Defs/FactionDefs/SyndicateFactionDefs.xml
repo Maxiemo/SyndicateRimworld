@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+
+  <FactionDef>
+    <defName>Syndicate</defName>
+    <label>Syndicate</label>
+    <description>A collection of Businesses, Mercenary groups, Usurped Factions and various fanatic groups that would otherwise have been eradicated had they not come together as a collective, while they work together they are as morally bankrupt as pirates and value their own gain above all else even over their fellow collaborates. </description>
+    <pawnsPlural>Syndicate</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <appreciative>false</appreciative>
+    <leaderTitle>Syndrone</leaderTitle>
+    <startingGoodwill>
+      <min>-99</min>
+      <max>-99</max>
+    </startingGoodwill>
+   <factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<techLevel>Spacer</techLevel>
+		<earliestRaidDays>80</earliestRaidDays>
+		<backstoryCategory>Raider</backstoryCategory>
+		<canFlee>false</canFlee>
+		<hairTags>
+			<li>Punk</li>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>-99</min>
+			<max>-99</max>
+		</naturalColonyGoodwill>
+		<pawnGroupMakers>
+			<li Class="PawnGroupMaker_Normal">
+				<commonality>100</commonality>
+				<options>
+					<Syndrone>200</Syndrone>
+					<Operative>5</Operative>
+					<SwordMaster>20</SwordMaster>
+					<SyndieBomber>100</SyndieBomber>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+		<homeIconColor>(255,100,100)</homeIconColor>
+	</FactionDef>
+
+
+</FactionDefs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelBase">
+		<thingClass>PersonalShield</thingClass>
+		<defName>Apparel_EnergyShield</defName>
+		<label>Energy Shield</label>
+		<description> A Syndicate grade energy shield, designed for extended combat as opposed to its child technology; the personal shield. Despite being a shield its quite useless against the traditional security stunbaton, likewise any melee weaponry will bypass its imaging protocols. </description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanoid/Apparel/EnergyShield/EnergyShield</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>3800</MarketValue>
+      <PersonalShieldRechargeRate>0.50</PersonalShieldRechargeRate>
+      <PersonalShieldEnergyMax>2.0</PersonalShieldEnergyMax>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Accessory</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>EnergyShield</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>

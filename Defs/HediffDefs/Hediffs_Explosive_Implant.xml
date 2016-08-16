@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Implants -->
+   <HediffDef Name="SpessImplantBase">
+   <hediffClass>Spessmen.Syndicate_Implant_Hediff</hediffClass>
+	<defName>SyndicateImplantBase</defName>
+    <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
+  </HediffDef>
+  <HediffDef ParentName="SpessImplantBase">
+    <defName>ExplosiveImplant</defName>
+    <label>Explosive Implant</label>
+  </HediffDef>
+</Defs>

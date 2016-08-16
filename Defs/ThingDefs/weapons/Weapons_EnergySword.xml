@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+		<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_EnergySword</defName>
+		<label>Energy Sword</label>
+		<description>A small metal hilt that projects a blade of pure energy, the most popular and only choice among operatives who favor a melee approach.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/EnergySword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>saberon</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>SyndiSword</li>
+		</weaponTags>
+			<statBases>			<MeleeWeapon_DamageAmount>35</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>5000</MarketValue>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Cut</meleeDamageDef>
+				<soundCast>BLADE</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+		<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_DoubleSword</defName>
+		<label>Double Bladed Energy Sword</label>
+		<description>Two Energy Swords combined together to make a double energy sword, absolute badass until an unarmed assistant disarms you or a clown slips you.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/DoubleSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>saberon</soundInteract>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>SyndiDoubleSword</li>
+		</weaponTags>
+			<statBases>			
+			<MeleeWeapon_DamageAmount>70</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<MarketValue>10000</MarketValue>
+			<WorkToMake>45000</WorkToMake>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>Cut</meleeDamageDef>
+				<soundCast>BLADE</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+</ThingDefs>

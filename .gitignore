@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Source/Spessmen/.vs/Spessmen/v14/.suo
+*.cs
+Source/Spessmen/Spessmen.sln
+Source/Spessmen/Spessmen/bin/Debug/NVorbis.dll
+*.pdb
+Source/Spessmen/Spessmen/bin/Debug/UnityEngine.dll
+Source/Spessmen/Spessmen/bin/Debug/Spessmen.dll
+Source/Spessmen/Spessmen/bin/Debug/Assembly-CSharp.dll
+Source/Spessmen/Spessmen/bin/Export/Assembly-CSharp.dll
