@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DefPackage-SoundDef>
   <SoundDef>
-    <defName>Donkeat</defName>  
+    <defName>Donkeatsus</defName>  
     <sustain>True</sustain>   
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  

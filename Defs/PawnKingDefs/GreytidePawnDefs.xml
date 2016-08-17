@@ -5,7 +5,7 @@
 		<defName>Assistant</defName>
 		<label>Assistant</label>
 		<race>Human</race>
-		<combatPower>10</combatPower>
+		<combatPower>20</combatPower>
 		<defaultFactionType>Greytide</defaultFactionType>
 		<baseRecruitDifficulty>0.10</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>

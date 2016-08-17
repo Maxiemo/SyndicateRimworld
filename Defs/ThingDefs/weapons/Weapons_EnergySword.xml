@@ -19,9 +19,6 @@
 			<MarketValue>5000</MarketValue>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -51,9 +48,6 @@
 			<WorkToMake>45000</WorkToMake>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
