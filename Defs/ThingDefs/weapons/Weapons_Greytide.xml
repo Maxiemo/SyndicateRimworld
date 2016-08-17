@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_ImprovisedSpear</defName>
 		<label>Improvised Spear</label>
 		<description> The Improvised spear is infamous for its reliabilty, lethality, abundancy and its common use among Greytiders.</description>
@@ -28,7 +28,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Welder</defName>
 		<label>Welder</label>
 		<description> The Welder is known for its extensive utility and efficiency at melting faces off.</description>
@@ -55,7 +55,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Screwdriver</defName>
 		<label>Screwdriver</label>
 		<description> Apply to eyes for maximum effectivenes </description>
@@ -82,7 +82,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Pickaxe</defName>
 		<label>Pickaxe</label>
 		<description> Standard Nanotrasen pickaxe, designed for extra picking, the edges and ends are extra pointy and sharp for eradicating filthy xenos or giant space carp.</description>
@@ -112,7 +112,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Wrench</defName>
 		<label>Wrench</label>
 		<description> Great all round tool, wrench a girder, wrench a table, wrench the clown, wrench the head of securities limbs. </description>
@@ -143,7 +143,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Chainsaw</defName>
 		<label>Chainsaw</label>
 		<description> Remember to yell 'Timeerrrrr' when you rend off their legs. </description>
@@ -173,7 +173,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Toolbox</defName>
 		<label>Toolbox</label>
 		<description> Its full, of the souls of past victims which instill some form of mystical engineering knowledge within the user. It's also great at caving in skulls.  </description>
@@ -205,7 +205,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Crowbar</defName>
 		<label>Wrench</label>
 		<description> Not to be mistaken for a suspicious crowbar </description>
@@ -232,7 +232,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	<ThingDef ParentName="BaseMeleeWeapon_Blunt">
+	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_FirstAid</defName>
 		<label>Wrench</label>
 		<description> Automatically sorts medication, gauzes, salves, syringes and has an inbuilt health analyzer increasing healing efficiency. </description>

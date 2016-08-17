@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <ThingDefs>
-		<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+
+  <ThingDef Name="BaseSyndyMeleeWeapon" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+  
+		<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_EnergySword</defName>
 		<label>Energy Sword</label>
 		<description>A small metal hilt that projects a blade of pure energy, the most popular and only choice among operatives who favor a melee approach.</description>
@@ -28,7 +75,7 @@
 			</li>
 		</verbs>
 	</ThingDef>
-		<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_DoubleSword</defName>
 		<label>Double Bladed Energy Sword</label>
 		<description>Two Energy Swords combined together to make a double energy sword, absolute badass until an unarmed assistant disarms you or a clown slips you.</description>
