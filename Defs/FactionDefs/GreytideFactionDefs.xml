@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <FactionDefs>
 
 
@@ -15,7 +15,7 @@
     <canStageAttacks>true</canStageAttacks>
     <appreciative>true</appreciative>
     <startingGoodwill>
-      <min>-99</min>
+      <min>0</min>
       <max>45</max>
     </startingGoodwill>
    <factionNameMaker>NamerFactionPirate</factionNameMaker>
@@ -27,8 +27,8 @@
 			<li>Urban</li>
 		</hairTags>
 		<naturalColonyGoodwill>
-			<min>0</min>
-			<max>0</max>
+			<min>-99</min>
+			<max>45</max>
 		</naturalColonyGoodwill>
 		<pawnGroupMakers>
 			<li Class="PawnGroupMaker_Normal">
