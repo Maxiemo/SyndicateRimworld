@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <ThingDef ParentName="ArtifactBase">
+    <defName>LoyaltyImplant</defName>
+    <label>Loyalty Implant</label>
+    <description>A high tech, unethical form of recruiting.</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/LoyaltyImplant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>35000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+</GameData>

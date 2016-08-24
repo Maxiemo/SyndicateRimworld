@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <ThingDef Name="BaseBanana" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Spessmen.Projectile_Banana</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>12</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBanana">
+    <defName>Proj_Banana</defName>
+    <label>Banana Peel</label>
+    <thingClass>Spessmen.Projectile_Banana</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Honk/BananaWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius >2.5</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseEquipment">
+    <defName>Weapon_Banana</defName>
+    <equipmentType>Primary</equipmentType>
+    <label>banana</label>
+    <description>A banana.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Honk/BananaWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>BananaBomb</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw banana</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.0</forcedMissRadius>
+        <warmupTicks>90</warmupTicks>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>armbomb</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <projectileDef>Proj_Banana</projectileDef>
+      </li>
+    </verbs>
+  </ThingDef>
+</ThingDefs>
+
+
+

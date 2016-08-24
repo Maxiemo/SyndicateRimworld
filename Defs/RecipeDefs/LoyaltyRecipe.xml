@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef Name="LoyaltyImplantSurgery">
+		<defName>LoyaltyImplantSurgery</defName>
+		<label>install loyalty implant</label>
+		<description>Installs loyalty implant.</description>
+		<workerClass>Spessmen.Recipe_LoyaltyImplant</workerClass>
+		<jobString>Implanting...</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LoyaltyImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>LoyaltyImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+</RecipeDefs>
