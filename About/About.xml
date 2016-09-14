@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<ModMetaData>
-		<name>Syndicate</name>
+		<name>Syndicate - A15</name>
 		<author>Stealthkibbler, Keekenox, and Maxiemo.</author>
-		<targetVersion>0.14.1249</targetVersion>
+		<targetVersion>0.15.1279</targetVersion>
 		<description>Adds the Syndicate faction from SS13 and more.</description>
 </ModMetaData>

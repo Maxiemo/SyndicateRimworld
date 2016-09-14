@@ -287,7 +287,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_L6LMG</projectileDef>
 				<warmupTicks>130</warmupTicks>
-				<range>50</range>
+				<range>25</range>
 				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 				<burstShotCount>70</burstShotCount>
 				<soundCast>GunshotSMG</soundCast>

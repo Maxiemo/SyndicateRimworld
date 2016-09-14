@@ -15,8 +15,8 @@
     <canStageAttacks>true</canStageAttacks>
     <appreciative>true</appreciative>
     <startingGoodwill>
-      <min>0</min>
-      <max>45</max>
+      <min>-99</min>
+      <max>99</max>
     </startingGoodwill>
    <factionNameMaker>NamerFactionPirate</factionNameMaker>
 		<techLevel>Spacer</techLevel>
@@ -27,14 +27,14 @@
 			<li>Urban</li>
 		</hairTags>
 		<naturalColonyGoodwill>
-			<min>-99</min>
-			<max>45</max>
+			<min>-100</min>
+			<max>75</max>
 		</naturalColonyGoodwill>
 		<pawnGroupMakers>
 			<li Class="PawnGroupMaker_Normal">
 				<commonality>100</commonality>
 				<options>
-					<Assistant>5</Assistant>
+					<Assistant>15</Assistant>
 				</options>
 			</li>
 		</pawnGroupMakers>

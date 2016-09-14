@@ -146,7 +146,7 @@
 	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_Chainsaw</defName>
 		<label>Chainsaw</label>
-		<description> Remember to yell 'Timeerrrrr' when you rend off their legs. </description>
+		<description> BEWARE THE TUNNEL CLOWN!! </description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Greytide/Chainsaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -234,7 +234,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseSyndyMeleeWeapon">
 		<defName>MeleeWeapon_FirstAid</defName>
-		<label>Wrench</label>
+		<label>Medkit</label>
 		<description> Automatically sorts medication, gauzes, salves, syringes and has an inbuilt health analyzer increasing healing efficiency. </description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Greytide/FirstAidKit</texPath>
@@ -246,6 +246,9 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
 		<soundInteract>InteractPistol</soundInteract>
 		<costStuffCount>130</costStuffCount>
 		<costList>

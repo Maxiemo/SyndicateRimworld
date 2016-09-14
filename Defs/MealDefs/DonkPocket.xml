@@ -16,8 +16,8 @@
     <ingestible>
       <preferability>MealFine</preferability>
       <nutrition>0.90</nutrition>
-      <eatEffect>AteDonkPocket</eatEffect>
-      <soundEat>Donkeatsus</soundEat>
+      <ingestEffect>AteDonkPocket</ingestEffect>
+      <ingestSound>Donkeatsus</ingestSound>
     </ingestible>
   </ThingDef>
 </ThingDefs>

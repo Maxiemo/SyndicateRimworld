@@ -5,10 +5,10 @@
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
-        <startScale>
+        <scale>
           <min>0.25</min>
           <max>0.4</max>
-        </startScale>
+        </scale>
         <ticksBetweenMotes>20</ticksBetweenMotes>
         <positionLerpFactor>0.35</positionLerpFactor>
         <moteDef>Mote_FoodBitMeat</moteDef>
